@@ -18,3 +18,22 @@ function changeColor() {
 }
 
 setInterval(changeColor, 1000); // Change color every second
+// Mendapatkan tombol
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+// Ketika pengguna menggulir halaman ke bawah 20px dari bagian atas dokumen, tombol muncul
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+}
+
+// Ketika pengguna mengklik tombol, gulir ke bagian atas dokumen
+function scrollToTop() {
+  document.body.scrollTop = 0; // Untuk Safari
+  document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE, dan Opera
+}

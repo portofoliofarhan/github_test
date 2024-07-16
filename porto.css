@@ -139,3 +139,23 @@ nav ul li a:hover {
   height: auto;
   margin-bottom: 10px;
 }
+
+#scrollToTopBtn {
+  display: none; /* Tombol tidak terlihat saat halaman dimuat */
+  position: fixed; /* Tetap pada posisi tetap di layar */
+  bottom: 10px; /* Jarak dari bagian bawah layar */
+  right: 20px; /* Jarak dari bagian kanan layar */
+  z-index: 99; /* Mengatur lapisan tombol agar berada di atas konten */
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: #66C3FF;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #555;
+}
