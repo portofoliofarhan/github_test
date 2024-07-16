@@ -1,0 +1,15 @@
+/* Styling untuk teks kredit di bagian bawah */
+footer {
+  position: fixed; /* Memposisikan footer tetap di bawah */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Warna latar belakang footer */
+  color: #333; /* Warna teks */
+  text-align: center; /* Posisi teks di tengah */
+  padding: 1px 0; /* Padding atas dan bawah teks */
+}
+
+.credit {
+  font-size: 14px; /* Ukuran font teks kredit */
+}
