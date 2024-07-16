@@ -117,9 +117,12 @@ nav ul li a:hover {
 .images {
   text-align: center; /* Posisi foto di tengah */
   margin-top: 20px; /* Jarak dari kotak putih */
+  display: flex;
+  font-size: 32px;
 }
 
 .images img {
+  display: flex;
   max-width: 100%; /* Maksimum lebar gambar sesuai dengan kontainer */
   height: auto; /* Menjaga aspek rasio gambar */
 }
