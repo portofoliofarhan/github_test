@@ -13,3 +13,11 @@ footer {
 .credit {
   font-size: 14px; /* Ukuran font teks kredit */
 }
+body {
+    background: radial-gradient(circle, #000033, #19004d, #330066, #4d0080);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Warna teks putih agar kontras dengan latar belakang */
+}
