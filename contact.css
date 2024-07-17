@@ -2,9 +2,9 @@
 .white-box {
   background-color: white;
   width: 300px; /* Lebar kotak */
-  padding: 20px; /* Padding dalam kotak */
-  margin: 50px auto; /* Jarak antara kotak dengan tepi halaman */
-  border: 1px solid rgba(204, 206, 204, 5); /* Garis tepi kotak */
+  padding: 10px; /* Padding dalam kotak */
+  margin: 10px auto; /* Jarak antara kotak dengan tepi halaman */
+  border: 2px solid rgba(204, 206, 204, 5); /* Garis tepi kotak */
   text-align: center; /* Posisi teks di tengah */
 }
 /* Styling untuk teks kredit di bagian bawah */
@@ -13,7 +13,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #333; /* Warna latar belakang footer */
+  background-color: transparent; /* Warna latar belakang footer */
   color: white; /* Warna teks */
   text-align: center; /* Posisi teks di tengah */
   padding: 1px 0; /* Padding atas dan bawah teks */
@@ -23,10 +23,5 @@ footer {
   font-size: 14px; /* Ukuran font teks kredit */
 }
 body {
-    background: radial-gradient(circle, #000033, #19004d, #330066, #4d0080);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333; /* Warna teks putih agar kontras dengan latar belakang */
+  background: linear-gradient(to right, #F362FC, #CEFC62);
 }

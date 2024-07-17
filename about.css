@@ -2,9 +2,9 @@
 .white-box {
   background-color: white;
   width: 300px; /* Lebar kotak */
-  padding: 20px; /* Padding dalam kotak */
-  margin: 50px auto; /* Jarak antara kotak dengan tepi halaman */
-  border: 1px solid rgba(74, 127, 172, 1); /* Garis tepi kotak */
+  padding: 10px; /* Padding dalam kotak */
+  margin: 10px auto; /* Jarak antara kotak dengan tepi halaman */
+  border: 2px solid rgba(204, 206, 204, 5); /* Garis tepi kotak */
   text-align: center; /* Posisi teks di tengah */
 }
 /* Styling untuk teks kredit di bagian bawah */
@@ -13,7 +13,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #333; /* Warna latar belakang footer */
+  background-color: transparent; /* Warna latar belakang footer */
   color: white; /* Warna teks */
   text-align: center; /* Posisi teks di tengah */
   padding: 1px 0; /* Padding atas dan bawah teks */
@@ -23,10 +23,34 @@ footer {
   font-size: 14px; /* Ukuran font teks kredit */
 }
 body {
-    background: radial-gradient(circle, #000033, #19004d, #330066, #4d0080);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333; /* Warna teks putih agar kontras dengan latar belakang */
+  background: linear-gradient(to right, #F362FC, #CEFC62);
+}
+submit {
+  background-color: #7C9D2D;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5em;
+  color: #DEDEDE;
+  box-shadow: 0.5em, 0.5em, 0.5em, #000000;
+}
+submit::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #212121 0%, #212121 50%, #96041f 50%, #bf0426 60%);
+  border-radius: 0 0 0 5em 0;
+  box-shadow: 0.2em 0.2em 0.2em #0000004d;
+  transition: 0.3s;
+}
+submit::hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+submit::active {
+  box-shadow: 0.2em 0.2em 0.3em #0000004d;
+  transform:translate(0.1em,01em);
 }

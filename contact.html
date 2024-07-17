@@ -25,9 +25,15 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+            box-shadow: 0.5em, 0.5em, 0.5em, #000000;
         }
         input[type="submit"]:hover {
             background-color: #45a049;
+            
+        }
+        input[type="submit"]::hover::before {
+          width: 1.6em;
+          height: 1.6em;
         }
   </style>
 

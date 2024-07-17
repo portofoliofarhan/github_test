@@ -15,6 +15,8 @@ head {
 }
 
 header {
+    text-align: center;
+    justify-content: center;
     background: transparent;
     color: #fff;
     padding-top: 30px;
@@ -31,18 +33,22 @@ header a {
 }
 
 .logo {
+    text-align: center;
+    justify-items: center;
     float: left;
     display: inline;
     padding: 10px 20px;
 }
 
 .menu {
+    background: transparent;
     float: right;
     padding: 10px 20px;
     display: inline;
 }
 
 .menu li {
+    background: transparent;
     display: inline;
     padding: 0 5px;
 }
@@ -85,8 +91,11 @@ body {
 
 /* Basic styling for navbar */
 nav {
-  background-color: #333;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
   overflow: hidden;
+  cursor: pointer;
 }
 
 nav ul {
@@ -156,12 +165,6 @@ nav ul li a:hover {
 #scrollToTopBtn:hover {
   background-color: #555;
 }
-
 body {
-    background: radial-gradient(circle, #000033, #19004d, #330066, #4d0080);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #333; /* Warna teks putih agar kontras dengan latar belakang */
+  background: linear-gradient(to right, #F362FC, #CEFC62);
 }
